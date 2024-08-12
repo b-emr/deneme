@@ -25,6 +25,9 @@ public partial class MainPage : ContentPage
 	{
 		count++;
 
+
+
+		Console.WriteLine("");
 		if (count == 1)
 			NewBtn.Text = $"Clicked -{count} time do not click";
 		else
